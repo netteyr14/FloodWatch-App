@@ -46008,16 +46008,14 @@ if(d.f)r.push(B.Br)
 a0=b.b
 k=a0.b6(a?0.16:0.06)
 j=A.cw(16)
-a0=A.i7(B.Hp,a0,c,20)
-i=A.Q(a3).ok.Q
-if(i==null)i=c
-else{h=b.k3
-i=i.bM(A.ad(B.d.az(255*(a?0.75:0.6)),h.u()>>>16&255,h.u()>>>8&255,h.u()&255))}i=A.bX("Current water level",c,c,c,i,c,c)
-h=A.Q(a3).ok.r
-a0=A.pG(A.fT(c,A.dQ(A.c([a0,B.f8,i,B.lF,A.bX(s,c,c,c,h==null?c:h.uD(B.dA),c,c)],l),B.ax,B.Q),B.y,c,new A.cJ(k,c,c,j,c,c,B.af),c,c,B.jE,B.h0,c,c,c),1)
-k=b.Q
-if(k==null)k=b.y
-k=k.b6(a?0.22:0.12)
+i=A.i7(B.Hp,a0,c,20)
+h=A.Q(a3).ok.Q
+if(h==null)h=c
+else{g=b.k3
+h=h.bM(A.ad(B.d.az(255*(a?0.75:0.6)),g.u()>>>16&255,g.u()>>>8&255,g.u()&255))}h=A.bX("Current water level",c,c,c,h,c,c)
+g=A.Q(a3).ok.r
+k=A.pG(A.fT(c,A.dQ(A.c([i,B.f8,h,B.lF,A.bX(s,c,c,c,g==null?c:g.uD(B.dA),c,c)],l),B.ax,B.Q),B.y,c,new A.cJ(k,c,c,j,c,c,B.af),c,c,B.jE,B.h0,c,c,c),1)
+a0=a0.b6(a?0.16:0.06)
 j=A.cw(16)
 i=A.i7(B.Ho,b.y,c,20)
 h=A.Q(a3).ok.Q
@@ -46028,7 +46026,7 @@ g=A.Q(a3).ok.r
 g=A.bX(q,c,c,c,g==null?c:g.uD(B.dA),c,c)
 f=A.ad(31,n.u()>>>16&255,n.u()>>>8&255,n.u()&255)
 e=A.cw(20)
-r.push(A.fy(A.c([a0,A.pG(A.fT(c,A.dQ(A.c([i,B.f8,h,B.lF,A.fy(A.c([g,B.Ai,A.fT(c,A.fy(A.c([A.i7(o?B.He:B.Hl,n,c,16),B.Ru,A.bX(B.d.ac(Math.abs(p)*100,0)+"%",c,c,c,A.f2(c,c,n,c,c,c,c,c,c,c,c,c,c,c,B.bi,c,c,!0,c,c,c,c,c,c,c,c),c,c)],l),B.Z,B.aW,B.Q),B.y,c,new A.cJ(f,c,c,e,c,c,B.af),c,c,c,B.ob,c,c,c)],l),B.Z,B.aW,B.Q)],l),B.ax,B.Q),B.y,c,new A.cJ(k,c,c,j,c,c,B.af),c,c,B.jE,B.h0,c,c,c),1)],l),B.Z,B.aW,B.Q))
+r.push(A.fy(A.c([k,A.pG(A.fT(c,A.dQ(A.c([i,B.f8,h,B.lF,A.fy(A.c([g,B.Ai,A.fT(c,A.fy(A.c([A.i7(o?B.He:B.Hl,n,c,16),B.Ru,A.bX(B.d.ac(Math.abs(p)*100,0)+"%",c,c,c,A.f2(c,c,n,c,c,c,c,c,c,c,c,c,c,c,B.bi,c,c,!0,c,c,c,c,c,c,c,c),c,c)],l),B.Z,B.aW,B.Q),B.y,c,new A.cJ(f,c,c,e,c,c,B.af),c,c,c,B.ob,c,c,c)],l),B.Z,B.aW,B.Q)],l),B.ax,B.Q),B.y,c,new A.cJ(a0,c,c,j,c,c,B.af),c,c,B.jE,B.h0,c,c,c),1)],l),B.Z,B.aW,B.Q))
 return A.tE(new A.bV(B.h2,A.dQ(r,B.ax,B.Q),c))}}
 A.UI.prototype={
 L(a){var s,r,q,p,o,n=null
